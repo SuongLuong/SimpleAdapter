@@ -1,12 +1,15 @@
 # Tutorial for Simple Adapter in Android
 
-The purpose of this blog is to provide an instrucion on how to use Simple Adapter in an Android project.
+The purpose of this blog is to provide an instrucion on how to use Simple Adapter in an Android project. 
 
-# Introduction
+## Getting Started
+
+
+### Introduction
 
 In Android, an adapter is a connection between UI component and data source that helps us to fill data in UI component. We use this adapter to map static data to views defined in an XML file (layout). We can specify the data backing the list as an ArrayList of Maps. Each entry in the ArrayList corresponds to one row in the list. If we need more customization in a ListView or a GridView we need to implement Simple Adapter.
 
-# History
+### History
 
 The package library which the component was included in:
 
@@ -16,7 +19,7 @@ android.widget.AdapterView;
 
 The Android system for Simple Adapter: since - Added in API level 1
 
-# Methods
+### Methods
 
 The following is the implementation of a Simple Adapter: public constructor
 
@@ -30,7 +33,7 @@ public SimpleAdapter (Context context, List<? extends Map<String, ?>> data, int 
 - from	String: A list of column names that will be added to the Map associated with each item.
 - to	int: The views that should display column in the "from" parameter. These should all be TextViews. The first N views in this list are given the values of the first N columns in the from parameter.
 
-# Example Project
+### Example Project
 
 The major methods used in this project to demonstrate SimpleAdapter usage:
 
@@ -51,12 +54,11 @@ The major methods used in this project to demonstrate SimpleAdapter usage:
             
             
     // create a simple adapter
-           
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,arrayList,R.layout.design_file,from,to);
         simple_listview.setAdapter(simpleAdapter);
         
         
-# Reference
+### Reference
 - These websites are used as reference.
 - The sample code on cours website: https://github.com/AustinCENG/Lecture5_ListView
 
