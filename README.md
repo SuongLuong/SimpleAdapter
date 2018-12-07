@@ -21,7 +21,7 @@ In Android, an adapter is a connection between UI component and data source that
 
 - android.widget.AdapterView;
 
-### The Android system for Simple Adapter: since - Added in API level 1
+The Android system for Simple Adapter: since - Added in API level 1
 
 ### Some major methods:
 
