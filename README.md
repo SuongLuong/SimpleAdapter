@@ -6,6 +6,11 @@ The purpose of this blog is to provide an instrucion on how to use Simple Adapte
 
 In Android, an adapter is a connection between UI component and data source that helps us to fill data in UI component. We use this adapter to map static data to views defined in an XML file (layout). We can specify the data backing the list as an ArrayList of Maps. Each entry in the ArrayList corresponds to one row in the list. If we need more customization in a ListView or a GridView we need to implement Simple Adapter.
 
+## Prerequisites
+
+- Android Studio IDE
+- ADV emulator or smartphone
+
 ## History
 
 The package library which the component was included in:
