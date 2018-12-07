@@ -33,21 +33,29 @@ public SimpleAdapter (Context context, List<? extends Map<String, ?>> data, int 
 # Example Project
 
 The major methods used in this project to demonstrate SimpleAdapter usage:
-   // create a string for a list of fruit
+
+    // create a string for a list of fruit
     String [] fruitsname = {"Mango","Strawberry","Avocado","Orange","Kiwi","Apple","Banana","Papaya"};
     ListView simple_listview;
 
     ArrayList<HashMap<String,String>> arrayList = new ArrayList<>();
         for (int i = 0;i<fruitsname.length;i++) {
 
-            // Create this Hashmap to store fruit data in key-value pair
+    // Create this Hashmap to store fruit data in key-value pair
             HashMap<String, String> hashMap = new HashMap<>();
             hashMap.put("name",fruitsname[i]);
             hashMap.put("image",fruitsImages[i]+"");
 
-            // to add the hashmap into arraylist
+    // to add the hashmap into arraylist
             arrayList.add(hashMap);
             
+            
+    // create a simple adapter
+           
+        SimpleAdapter simpleAdapter = new SimpleAdapter(this,arrayList,R.layout.design_file,from,to);
+        simple_listview.setAdapter(simpleAdapter);
+        
+        
 # Reference
 - These websites are used as reference.
 - The sample code on cours website: https://github.com/AustinCENG/Lecture5_ListView
