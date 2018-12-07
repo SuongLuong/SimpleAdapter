@@ -1,10 +1,10 @@
 # Tutorial for Simple Adapter in Android
 
-The purpose of this blog is to provide an instrucion on how to use Simple Adapter in an Android project. 
+The purpose of this blog is to provide an instrucion on how to use Simple Adapter in an Android project. Below is a brief tutorial on how to use this Simple Adapter component. 
 
 ## Introduction
 
-In Android, an adapter is a connection between UI component and data source that helps us to fill data in UI component. We use this adapter to map static data to views defined in an XML file (layout). We can specify the data backing the list as an ArrayList of Maps. Each entry in the ArrayList corresponds to one row in the list. If we need more customization in a ListView or a GridView we need to implement Simple Adapter.
+In Android, an adapter is a connection between UI component and data source that helps us to fill data in UI component. We use this adapter to map static data to views defined in an XML file (layout). We can specify the data backing the list as an ArrayList of Maps. Each entry in the ArrayList corresponds to one row in the list. If we need more customization in a ListView or a GridView we need to implement Simple Adapter. The Simple Adapter is used to fill the list view from a Hash Map or Associative array. 
 
 ## Prerequisites
 
