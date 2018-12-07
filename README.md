@@ -83,4 +83,6 @@ The major methods used in this project to demonstrate SimpleAdapter usage:
 The websites and videos for learning how to use this component:
 - YoutubeLinks: https://www.youtube.com/watch?v=nOdSARCVYic
 - Android Developer Website: https://developer.android.com/reference/android/widget/SimpleAdapter
-- Other websites: https://abhiandroid.com/ui/simpleadapter.html
+- Other websites: 
+https://abhiandroid.com/ui/simpleadapter.html
+https://stackoverflow.com/questions/17748356/how-to-input-data-from-object-into-simpleadapter
