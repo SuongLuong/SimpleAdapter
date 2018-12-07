@@ -41,3 +41,4 @@ The major methods used in this project to demonstrate SimpleAdapter usage:
 - The websites and videos for learning how to use this component:
 
 [YoutubeLinks](https://www.youtube.com/watch?v=nOdSARCVYic)
+[Android Developer Website](https://developer.android.com/reference/android/widget/SimpleAdapter]
