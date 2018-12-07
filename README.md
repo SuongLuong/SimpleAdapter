@@ -25,7 +25,7 @@ The Android system for Simple Adapter: since - Added in API level 1
 
 ### Some major methods:
 
-- int	getCount()    How many items are in the data set represented by this Adapter.
+- #### int	getCount()    How many items are in the data set represented by this Adapter.
 
 - SimpleAdapter.ViewBinder	getViewBinder()   Returns the SimpleAdapter.ViewBinder used to bind data to views.
 
