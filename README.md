@@ -75,7 +75,11 @@ The major methods used in this project to demonstrate SimpleAdapter usage:
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,arrayList,R.layout.design_file,from,to);
         simple_listview.setAdapter(simpleAdapter);
         
-        
+## Author
+
+Suong Luong 
+Test the example codes on this repository.
+
 ## Reference
 - These websites are used as reference.
 - The sample code on cours website: https://github.com/AustinCENG/Lecture5_ListView
