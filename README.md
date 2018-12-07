@@ -35,10 +35,10 @@ public SimpleAdapter (Context context, List<? extends Map<String, ?>> data, int 
 The major methods used in this project to demonstrate SimpleAdapter usage:
 
 # Reference
-
+- These websites are used as reference.
 - The sample code on cours website: https://github.com/AustinCENG/Lecture5_ListView
 
-- The websites and videos for learning how to use this component:
-
-[YoutubeLinks](https://www.youtube.com/watch?v=nOdSARCVYic)
-[Android Developer Website](https://developer.android.com/reference/android/widget/SimpleAdapter]
+The websites and videos for learning how to use this component:
+- YoutubeLinks: https://www.youtube.com/watch?v=nOdSARCVYic
+- Android Developer Website: https://developer.android.com/reference/android/widget/SimpleAdapter
+- Other websites: https://abhiandroid.com/ui/simpleadapter.html
