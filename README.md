@@ -31,10 +31,10 @@ How many items are in the data set represented by this Adapter.
 - #### SimpleAdapter.ViewBinder	getViewBinder()   
 Returns the SimpleAdapter.ViewBinder used to bind data to views.
 
-- ####void	setViewImage(ImageView v, int value)   
+- #### void	setViewImage(ImageView v, int value)   
 Called by bindView() to set the image for an ImageView
 
-- ####void	setViewImage(ImageView v, String value)   
+- #### void	setViewImage(ImageView v, String value)   
 Called by bindView() to set the image for an ImageView 
 
 ## Methods
