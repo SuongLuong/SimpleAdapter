@@ -15,11 +15,11 @@ In Android, an adapter is a connection between UI component and data source that
 
 ### The package library which the component was included in:
 
-android.widget.Adapter;
+- android.widget.Adapter;
 
-android.widget.SimpleAdapter;
+- android.widget.SimpleAdapter;
 
-android.widget.AdapterView;
+- android.widget.AdapterView;
 
 ### The Android system for Simple Adapter: since - Added in API level 1
 
